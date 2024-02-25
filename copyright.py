@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO)
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME","Group_SecurityRobot")
 
-OWNER_ID = "6664582540"
+OWNER_ID = "6886160138"
 # -------------------------------------------------------------------------------------
 
 API_ID = "6435225" # 
