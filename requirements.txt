@@ -2,3 +2,4 @@ psutil
 pyrogram==2.0.106
 requests
 tgcrypto==1.2.5
+motor
