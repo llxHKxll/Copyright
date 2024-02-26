@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 
 # -------------------------------------------------------------------------------------
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME","Group_SecurityRobot")
+BOT_USERNAME = os.environ.get("BOT_USERNAME","ModularCopyRightSaverbot")
 
 OWNER_ID = "6379841493"
 # -------------------------------------------------------------------------------------
@@ -45,7 +45,7 @@ start_txt = """<b> 🤖 𝖦𝗋𝗈𝗎𝗉 𝖲𝖾𝖼𝗎𝗋𝗂𝗍𝗒 �
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("𝖲𝖴𝖬𝖬𝖮𝖭 𝖬𝖤", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("𝖲𝖴𝖬𝖬𝖮𝖭 𝖬𝖤", url=f"https://t.me/ModularCopyRightSaverbot?startgroup=true")
         ],
         [
           InlineKeyboardButton("𝖠𝖡𝖮𝖴𝖳", callback_data="dil_back")
