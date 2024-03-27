@@ -38,10 +38,10 @@ app = Client('my_bot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 start_txt = """<b> ⚜ CᴏᴘʏRɪɢʜᴛ Sᴀᴠᴇʀ Bᴏᴛ ⚜ </b>
 ʜᴇʏ! ɪ ᴀᴍ ᴀ ᴄᴏᴘʏʀɪɢʜᴛ sᴀᴠᴇʀ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛʜɴ. ᴍᴜsᴛ ᴊᴏɪɴ @XovaUpdates ғᴏʀ ᴜᴘᴅᴀᴛᴇs...
 
-๏ 𝙼𝚈 𝚄𝚂𝙴 ? ✨💐
+<b> ๏ 𝙼𝚈 𝚄𝚂𝙴 ? </b> ✨💐
 ɪ'ʟʟ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴇɴsᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ᴄᴏɴᴛᴇɴᴛ ɪs ғʀᴇᴇ ғʀᴏᴍ ᴀɴʏ ᴘᴏᴛᴇɴᴛɪᴀʟ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs.
 
-๏ 𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴 ? 🍃🥀
+<b> ๏ 𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴 ? </b> 🍃🥀
 ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴡɪᴛʜ sᴏᴍᴇ ʀɪɢʜᴛs ; ʟɪᴋᴇ ᴅᴇʟᴇᴛᴇ & ʙᴀɴ.
 
 🍁 ▸ ʟᴇᴛ's ᴡᴏʀᴋ ᴛᴏɢᴇᴛʜᴇʀ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɪɴᴛᴇʟʟᴇᴄᴛᴜᴀʟ ᴘʀᴏᴘᴇʀᴛʏ ᴀɴᴅ sʜᴀʀᴇ ʏᴏᴜʀ ᴡᴏʀᴋ ᴡɪᴛʜ ᴘᴇᴀᴄᴇ ᴏғ ᴍɪɴᴅ !!"""
@@ -56,7 +56,7 @@ async def start(_, msg):
           InlineKeyboardButton("🍁 ᴜᴘᴅᴀᴛᴇs 🍁", url=f"https://t.me/XovaUpdates")
         ],
         [ 
-          InlineKeyboardButton("🍬ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🍬", url=f"https://t.me/CopyrightSaverRoBot?startgroup=true")
+          InlineKeyboardButton("🍬 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🍬", url=f"https://t.me/CopyrightSaverRoBot?startgroup=true")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -117,12 +117,12 @@ async def activevc(_, message: Message):
     python_version = platform.python_version()
 
     reply_text = (
-        f"➪ᴜᴘᴛɪᴍᴇ: {uptime}\n"
-        f"➪ᴄᴘᴜ: {cpu}%\n"
-        f"➪ꜱᴛᴏʀᴀɢᴇ: {size_formatter(storage.total)} [ᴛᴏᴛᴀʟ]\n"
-        f"➪{size_formatter(storage.used)} [ᴜsᴇᴅ]\n"
-        f"➪{size_formatter(storage.free)} [ғʀᴇᴇ]\n"
-        f"➪ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: {python_version},"
+        f"▸ᴜᴘᴛɪᴍᴇ: {uptime}\n"
+        f"▸ᴄᴘᴜ: {cpu}%\n"
+        f"▸ꜱᴛᴏʀᴀɢᴇ: {size_formatter(storage.total)} [ᴛᴏᴛᴀʟ]\n"
+        f"▸{size_formatter(storage.used)} [ᴜsᴇᴅ]\n"
+        f"▸{size_formatter(storage.free)} [ғʀᴇᴇ]\n"
+        f"▸ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: {python_version},"
     )
 
     await message.reply(reply_text, quote=True)
