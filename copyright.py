@@ -50,11 +50,14 @@ start_txt = """<b> ⚜ CᴏᴘʏRɪɢʜᴛ Sᴀᴠᴇʀ Bᴏᴛ ⚜
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("𝖲𝖴𝖬𝖬𝖮𝖭 𝖬𝖤", url=f"https://t.me/THNCopyrightSaverBot?startgroup=true")
+          InlineKeyboardButton("🫧 ᴏᴡɴᴇʀ 🫧", url=f"https://t.me/llxHKxll")
         ],
         [
-          InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤", url=f"https://t.me/TheHKNetwork")
-        ]]
+          InlineKeyboardButton("🍁 ᴜᴘᴅᴀᴛᴇs 🍁", url=f"https://t.me/XovaUpdates")
+        ],
+        [ 
+          InlineKeyboardButton("🍬ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🍬", url=f"https://t.me/CopyrightSaverRoBot?startgroup=true")
+        ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
