@@ -57,7 +57,7 @@ async def start(_, msg):
         ],
         [ 
           InlineKeyboardButton("🍬ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🍬", url=f"https://t.me/CopyrightSaverRoBot?startgroup=true")
-        ]
+        ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
