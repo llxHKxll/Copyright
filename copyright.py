@@ -51,7 +51,8 @@ async def start(_, msg):
     buttons = [
         [ 
           InlineKeyboardButton("🫧 ᴏᴡɴᴇʀ 🫧", url=f"https://t.me/llxHKxll")
-        ], && [
+        ],
+        [
           InlineKeyboardButton("🍁 ᴜᴘᴅᴀᴛᴇs 🍁", url=f"https://t.me/XovaUpdates")
         ],
         [ 
@@ -69,8 +70,8 @@ async def start(_, msg):
 
 gd_buttons = [              
         [
-            InlineKeyboardButton("𝖣𝖤𝖵", user_id=OWNER_ID),
-            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url="https://t.me/TheHKNetwork"),    
+            InlineKeyboardButton("๏ ᴅᴇᴠ ๏", user_id=OWNER_ID),
+            InlineKeyboardButton("🍁 ᴜᴘᴅᴀᴛᴇs 🍁", url="https://t.me/TheHKNetwork"),    
         ]
         ]
 
@@ -132,7 +133,7 @@ async def activevc(_, message: Message):
 
 
 
-FORBIDDEN_KEYWORDS = ["porn", "xxx", "sex", "NCERT", "XII", "page", "Ans", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt", "pom"]
+FORBIDDEN_KEYWORDS = ["porn", "PORN", "Porn", "XXX", "xxx", "sex", "Sex", "SEX", "ncert", "Ncert", "NCERT", "XII", "page", "Ans", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt", "pom"]
 
 @app.on_message()
 async def handle_message(client, message):
@@ -165,7 +166,7 @@ def delete_long_messages(_, m):
 async def delete_and_reply(_, msg):
     await msg.delete()
     user_mention = msg.from_user.mention
-    await app.send_message(msg.chat.id, f"Hey {user_mention}, please keep your messages short!")
+    await app.send_message(msg.chat.id, f"ʜᴇʏ {user_mention}, ᴘʟᴇᴀsᴇ ᴋᴇᴇᴘ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ sʜᴏʀᴛ !")
     
 
 # -----------------------------------------------------------------------------------
@@ -191,5 +192,5 @@ async def message_handler(client, message):
 
 # -----------------------------------------------------------------------------------
 
-print(f"""╔═════❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱════❍⊱❁۪۪║┏━━━━━━➣║┣⪼ ᴏᴡɴᴇʀ :- @llxHKxll ║┣⪼ ᴘᴀʀᴛ ᴏғ :- @TheHKNetwork║┗━━━━━━➣║╔═════ஜ۩۞۩ஜ════╗║Tʜᴇ Hᴋᴢ Nᴇᴛᴡᴏʀᴋ║ ஜ۩۞۩ஜ════╝╚═════════════════❍⊱❁ """)
+print(f"""╔═════❰Wᴇʟᴄᴏᴍᴇ❱════❍⊱❁۪۪║┏━━━━━━➣║┣⪼ ᴏᴡɴᴇʀ :- @llxHKxll ║┣⪼ ᴘᴀʀᴛ ᴏғ :- @TheHKNetwork║┗━━━━━━➣║╔═════ஜ۩۞۩ஜ════╗║Tʜᴇ Hᴋᴢ Nᴇᴛᴡᴏʀᴋ║ ஜ۩۞۩ஜ════╝╚═════════════════❍⊱❁ """)
 app.run()
