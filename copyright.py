@@ -45,7 +45,7 @@ start_txt = """<b> 🤖  𝗠𝗢𝗗𝗨𝗟𝗔𝗥 𝗖𝗢𝗣𝗬𝗥𝗜�
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("𝖲𝖴𝖬𝖬𝖮𝖭 𝖬𝖤", url=f"https://t.me/ModularCopyrightSaverxDBot?startgroup=true")
+          InlineKeyboardButton("𝖲𝖴𝖬𝖬𝖮𝖭 𝖬𝖤", url=f"https://t.me/THNCopyrightSaverBot?startgroup=true")
         ],
         [
           InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤", url=f"https://t.me/TheHKNetwork")
