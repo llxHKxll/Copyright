@@ -51,8 +51,7 @@ async def start(_, msg):
     buttons = [
         [ 
           InlineKeyboardButton("🫧 ᴏᴡɴᴇʀ 🫧", url=f"https://t.me/llxHKxll")
-        ],
-        [
+        ], && [
           InlineKeyboardButton("🍁 ᴜᴘᴅᴀᴛᴇs 🍁", url=f"https://t.me/XovaUpdates")
         ],
         [ 
